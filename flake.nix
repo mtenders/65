@@ -1,7 +1,7 @@
 {
   description = "Geburtstag";
 
-  input.nixpkgs.url = "github:NixOS/nixpkgs/nixos-20.03";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-20.03";
 
   outputs = { self, nixpkgs }: {
     defaultPackage.x86_64-linux =
